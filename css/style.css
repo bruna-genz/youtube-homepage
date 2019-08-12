@@ -79,12 +79,22 @@ aside .feature-video {
 
 
 aside .feature-video .feature-image {
-    width: 150px;
+    width: 40%;
     height: 100px;
     margin: 10px;
     overflow: hidden;
 }
 
+aside .feature-video .image-description {
+    width: 60%;
+    font-size: 13px;
+    padding: 5px;
+}
+
+aside .feature-video .image-description .feature-description h4{
+    color: #4b4b4b;
+    font-weight: 300;
+}
 
 
 aside .feature-video .feature-image img{
@@ -147,4 +157,13 @@ main .comments .comment-btn {
 
 main .comments .comment-btn:hover {
     opacity: .5;
+}
+
+footer {
+    width: 100%;
+    margin: 80px auto 0 auto;    
+    padding: 40px;
+    text-align: center;
+    background: #2f2f2f;
+    color: white;
 }
